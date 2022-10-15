@@ -1,0 +1,96 @@
+body{
+   background: #076585;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #076585, #fff);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #076585, #fff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* este fondo se llama Sky */   
+}
+
+
+.titulo{
+   font-family: sans-serif; /* en revision */
+   text-align: center;
+}
+
+.baja{
+   font-family: sans-serif;
+   text-align: center;
+   /* position: relative;
+   top: 510px; */
+}
+
+.baja-contenedor{
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   top: 450px;
+   align-items: center;
+}
+
+.gg-arrow-down {
+   box-sizing: border-box;
+   position: relative;
+   display: block;
+   transform: scale(var(--ggs,1));
+   width: 22px;
+   height: 22px
+  }
+  
+  .gg-arrow-down::after,
+  .gg-arrow-down::before {
+   content: "";
+   display: block;
+   box-sizing: border-box;
+   position: absolute;
+   bottom: 4px
+  }
+  
+  .gg-arrow-down::after {
+   width: 8px;
+   height: 8px;
+   border-bottom: 2px solid;
+   border-left: 2px solid;
+   transform: rotate(-45deg);
+   left: 7px
+  }
+  
+  .gg-arrow-down::before {
+   width: 2px;
+   height: 16px;
+   left: 10px;
+   background: currentColor
+  } 
+
+  /* hasta aqui esta el baja */
+
+
+  .recuerda-frase{
+   font-family: 'open sans';
+  }
+
+  .cita-biblica{
+   display: inline;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  a{
+   text-decoration: none;
+   color: black;
+  }
+
+.cita-biblica-cont{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.frase-acraze{
+   font-family: 'open sans';
+   font-weight: bold;
+   position: relative;
+   left: 30px;
+   display: inline-block;
+}
